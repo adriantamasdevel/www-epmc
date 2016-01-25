@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="557" height="175" viewBox="0 0 557 175">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #040708;
+      }
+
+      .cls-1 {
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        filter: url(#color-overlay-2);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #181818;
+      }
+
+      .cls-3, .cls-5 {
+        filter: url(#color-overlay-3);
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#48aea0"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-2" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#181818"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-3" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <path d="M-0.000,-0.000 L422.000,-0.000 L499.000,136.000 L-0.000,136.000 L-0.000,-0.000 Z" class="cls-1"/>
+  <path d="M421.000,95.000 L511.000,95.000 L556.720,175.000 L466.720,175.000 L421.000,95.000 Z" class="cls-2"/>
+  <g>
+    <path d="M472.000,114.000 L503.000,114.000 L503.000,148.933 L494.648,157.000 L472.000,157.000 L472.000,114.000 Z" class="cls-3"/>
+    <path d="M475.000,117.000 L500.000,117.000 L500.000,146.933 L499.896,147.033 L493.000,147.000 L493.000,154.000 L475.000,154.000 L475.000,117.000 Z" class="cls-4"/>
+    <rect x="483" y="127" width="24" height="11" class="cls-5"/>
+    <path d="M504.000,132.000 L504.000,133.000 L501.000,133.000 L501.000,136.000 L500.000,136.000 L500.000,130.000 L500.000,129.000 L504.000,129.000 L504.000,130.000 L501.000,130.000 L501.000,132.000 L504.000,132.000 ZM497.000,130.000 L498.000,130.000 L498.000,135.000 L497.000,135.000 L497.000,130.000 ZM494.000,135.000 L497.000,135.000 L497.000,136.000 L494.000,136.000 L493.000,136.000 L493.000,129.000 L494.000,129.000 L497.000,129.000 L497.000,130.000 L494.000,130.000 L494.000,135.000 ZM488.000,134.000 L488.000,136.000 L487.000,136.000 L487.000,130.000 L487.000,129.000 L488.000,129.000 L491.000,129.000 L491.000,130.000 L491.000,133.000 L491.000,134.000 L490.000,134.000 L488.000,134.000 ZM490.000,130.000 L488.000,130.000 L488.000,133.000 L490.000,133.000 L490.000,130.000 Z" class="cls-4"/>
+  </g>
+</svg>

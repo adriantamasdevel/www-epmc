@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="2700" height="700" viewBox="0 0 2700 700">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #040708;
+      }
+
+      .cls-1 {
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        filter: url(#color-overlay-2);
+      }
+
+      .cls-3, .cls-4 {
+        fill: #000;
+      }
+
+      .cls-3 {
+        filter: url(#color-overlay-3);
+      }
+
+      .cls-4 {
+        filter: url(#color-overlay-4);
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#f1f1f1"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-2" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-3" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#6cc7bc"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-4" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#59a69d"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <path d="M1529.000,-458.000 L3677.000,-458.000 L3677.000,1544.000 L2673.043,1544.000 L1529.000,-458.000 Z" class="cls-1"/>
+  <path d="M-10.000,-5.000 L1788.000,-5.000 L2196.000,700.000 L-10.000,700.000 L-10.000,-5.000 Z" class="cls-2"/>
+  <g>
+    <path d="M1705.384,42.000 L1706.116,42.000 L1733.500,87.500 L1678.000,87.500 L1705.384,42.000 Z" class="cls-3"/>
+    <path d="M1760.884,133.000 L1761.616,133.000 L1789.000,87.500 L1733.500,87.500 L1760.884,133.000 Z" class="cls-4"/>
+    <path d="M1705.750,42.000 L1759.689,42.000 L1746.638,65.214 L1719.431,65.214 L1705.750,42.000 Z" class="cls-4"/>
+    <path d="M1746.233,64.750 L1759.989,42.000 L1789.000,87.500 L1760.321,87.500 L1746.233,64.750 Z" class="cls-3"/>
+  </g>
+</svg>

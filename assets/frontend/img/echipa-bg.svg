@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="609" height="318" viewBox="0 0 609 318">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #040708;
+      }
+
+      .cls-1, .cls-3 {
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        filter: url(#color-overlay-2);
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#6cc7bc"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-2" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#59a69d"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <path d="M4.000,179.000 L315.339,179.000 L241.000,314.000 L78.339,314.000 L4.000,179.000 Z" class="cls-1"/>
+  <path d="M294.000,314.000 L604.995,314.000 L530.738,179.000 L368.257,179.000 L294.000,314.000 Z" class="cls-2"/>
+  <ellipse cx="160" cy="82.5" rx="79" ry="79.5" class="cls-3"/>
+  <ellipse cx="449" cy="82.5" rx="79" ry="79.5" class="cls-4"/>
+</svg>

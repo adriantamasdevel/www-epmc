@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="531" height="870" viewBox="0 0 531 870">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-2 {
+        filter: url(#color-overlay-2);
+      }
+
+      .cls-3 {
+        filter: url(#color-overlay-3);
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#6cc7bc"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-2" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-3" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#59a69d"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <path d="M183.939,3.000 L184.061,3.000 L346.000,279.000 L22.000,279.000 L183.939,3.000 Z" class="cls-1"/>
+  <path d="M-0.061,276.000 L0.061,276.000 L162.000,-0.000 L-0.000,-0.000 L-0.061,276.000 Z" class="cls-2"/>
+  <path d="M183.939,572.000 L184.061,572.000 L346.000,296.000 L22.000,296.000 L183.939,572.000 Z" class="cls-3"/>
+  <path d="M368.939,299.000 L369.061,299.000 L531.000,575.000 L207.000,575.000 L368.939,299.000 Z" class="cls-1"/>
+  <path d="M368.939,870.000 L369.061,870.000 L531.000,594.000 L207.000,594.000 L368.939,870.000 Z" class="cls-3"/>
+</svg>
